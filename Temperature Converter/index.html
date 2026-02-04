@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="container">
+         <h1 id="title">Temperature Converter</h1>
+
+         <label id="temperature">Celsius:</label>      <!--onchange,é um evento que quando o input é alterado,chama uma função,nesse caso "computeTemp(event)"  -->
+         <input id="celsius" type="number"  name="celsius" onchange="computeTemp(event)"  placeholder="Digite a temperatura">
+
+         <label id="Temperature">Farhenheit:</label>
+         <input id="farhe" type="number" name="farhe" onchange="computeTemp(event)"   placeholder="Digite a temperatura">
+   
+         <label id="Temperature">Kelvin:</label>
+         <input id="kelvin" type="number" name="kelvin" onchange="computeTemp(event)"    placeholder="Digite a temperatura">
+    </div>
+
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

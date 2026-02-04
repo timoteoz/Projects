@@ -1,0 +1,38 @@
+#text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    font-family:fantasy;
+}
+
+#input {
+    display: flex;
+    margin-left: 44%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+button {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-family: fantasy;
+    border-width: 3px;
+    border-color: black;
+}
+
+#btn-add {
+    display: flex;
+    margin-left: 48%;
+    margin-top: 10px;
+    background-color: rgb(42, 189, 42);
+}

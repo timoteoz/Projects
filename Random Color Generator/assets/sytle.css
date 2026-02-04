@@ -1,0 +1,32 @@
+.cores {
+    
+    width: 60%;
+    padding: 60px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: #2a2323;
+    text-align: center;
+    color: aliceblue;
+    font-size:x-large;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-grade {
+     /*Grid:Serve para definir o elemento pai em formato de grade,e seus filhos,em linhas e colunas*/
+    display: grid;
+    /*Gap:Tem a mesma função que "margin"*/
+    gap: 10px;
+    /*Grid-template-columns:Define o número de colunas desejada*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+
+}
