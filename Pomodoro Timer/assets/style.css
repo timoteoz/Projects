@@ -4,11 +4,15 @@
     align-items: center;
     max-width: 400px;
     margin: 0 auto;
-    background-color: rgb(240, 100, 100);
+    background-color: rgb(238, 112, 112);
     padding: 30px;
     border-radius: 10px;
     color: white;
     margin-top: 50px;
+}
+
+#container-btn {
+    display: flex;
 }
 
 body {
@@ -18,6 +22,10 @@ body {
 #text {
     margin-bottom: 0px;
     font-family: cursive;
+    margin-left: 15%;
+    font-size: xx-large;
+    font-weight: bolder;
+    
 }
 
 #timer {
@@ -28,18 +36,52 @@ body {
     font-family: cursive;
 }
 
-#botao {
+#start {
     padding: 10px 5px;
     background-color: white;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 3px 10px 1px black;
     color: brown;
     font-size: large;
     font-family:cursive;
     font-size: x-large;
+    box-shadow: 0 6px black;
+    transition: all 0.1s;
+    cursor: pointer;
+
 }
 
-#botao:hover {
+
+#start:hover {
     background-color: rgb(202, 198, 198);
+}
+
+#start:active {
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+}
+
+#reset {
+    max-width: 13%;
+    margin-top: 10px;
+    background-color:rgb(238, 112, 112) ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+#img {
+    width: 100%;
+}
+#img:hover {
+    transform: translatey(-2px);
+}
+
+#pause {
+    max-width: 13%;
+    margin-top: 10px;
+    background-color:rgb(238, 112, 112) ;
+    border-radius: 10px;
+    border: none;
+    color: white;
 }
